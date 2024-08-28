@@ -10,9 +10,9 @@ import Header from "@/app/Header"
 export default function Home() {
   return (
     <main>
-      <h1 className = 'text-4xl roboto-bold text-center'>
+      <h4 className = 'text-4xl text-center'>
         Xin Chào Mọi Người
-      </h1>
+      </h4>
     </main>
   );
 }
