@@ -1,18 +1,18 @@
-// import Header from '@/app/Header'
-// workbench color
-// import Card from "@/app/card"
-import Image from "next/image"
-import Header from "@/app/Header"
-// import { Button } from "@/components/ui/button";
-// import { text } from "stream/consumers";
-// import { Input } from "@/components/ui/input";
+import Image from "next/image";
+import GoKu from "../../public/images/goku.jpg";
 
-export default function Home() {
+export default function Page() {
   return (
     <main>
-      <h4 className = 'text-4xl text-center'>
-        Xin Chào Mọi Người
-      </h4>
+      <div className="w-[700] h-[700] bg-red-300">
+        <Image
+          src="https://images.pexels.com/photos/28197211/pexels-photo-28197211/free-photo-of-d-ng-phong-c-nh-nui-thien-nhien.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          width={500}
+          height={500}
+          alt="Picture of the author"
+          quality={100}
+        />
+      </div>
     </main>
   );
 }

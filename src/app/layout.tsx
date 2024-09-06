@@ -10,17 +10,14 @@ const roboto = localFont({
     {
       path: "./Roboto-BoldItalic.ttf",
       weight: "400",
-      style: "normal",
     },
     {
       path: "./Roboto-Italic.ttf",
-      weight: "100",
-      style: "normalItalic",
+      weight: "700",
     },
     {
       path: "./Roboto-Thin.ttf",
-      weight: "100",
-      style: "normalThin",
+      weight: "400",
     },
   ],
   display: 'swap', 
